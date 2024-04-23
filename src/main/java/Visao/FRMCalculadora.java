@@ -5,18 +5,16 @@
 package Visao;
 
 import Modelo.Calcular;
-import Modelo.Triangulo;
-
 /**
  *
  * @author 1072419878
  */
-public class FrmTriangulo extends javax.swing.JFrame {
+public class FRMCalculadora extends javax.swing.JFrame {
 
     /**
      * Creates new form FrmTriangulo
      */
-    public FrmTriangulo() {
+    public FRMCalculadora() {
         initComponents();
     }
 
@@ -224,20 +222,21 @@ public class FrmTriangulo extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FrmTriangulo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FRMCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FrmTriangulo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FRMCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FrmTriangulo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FRMCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FrmTriangulo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FRMCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FrmTriangulo().setVisible(true);
+                new FRMCalculadora().setVisible(true);
             }
         });
     }

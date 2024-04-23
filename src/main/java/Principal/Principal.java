@@ -1,11 +1,11 @@
 package Principal;
 
-import Visao.FrmTriangulo;
+import Visao.FRMCalculadora;
 
 public class Principal {
 
     public static void main(String[] args) {
-        FrmTriangulo janela = new FrmTriangulo();
+        FRMCalculadora janela = new FRMCalculadora();
         janela.setVisible(true);
     }
 }
